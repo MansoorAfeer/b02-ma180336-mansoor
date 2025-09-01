@@ -1,12 +1,35 @@
 
+
+- The platform supports multiple user types (Student, Educator, Professional, Institution, and Developer). -
+- Each user type has distinct capabilities, permissions, and access levels. Users can upgrade their account type or maintain multiple account types under a single identity.-
+- The system first checks if a user already exists in the database before creating new registrations, and maintains detailed audit logs of all account activities and learning progress.-
+- The membership system incorporates gamification elements, allowing users to earn Nexus points through various activities.
+- points can be redeemed for platform credits, certification vouchers, or premium features.-
+- The platform supports complex content categorization (academic subjects, professional skills, technical certifications, creative arts, personal development, and industry-specific training).
+- This comprehensive system presents numerous software engineering challenges including supporting millions of concurrent learners across global markets
+- The platform should make the Instructors can create detailed learning pathways with rich multimedia content, manage enrollment limits, set up automated grading systems, and configure discussion forums.
+- The system tracks learner performance metrics and provides instructors with detailed analytics about student engagement and completion rates.
+- All financial transactions are processed through Atlas’s secure payment, with supporting multiple payment.
+- Advanced financial features include automatic tax calculation
+- Atlas manages complex content licensing, automated revenue sharing systems, and sophisticated plagiarism detection mechanisms.
+- The system supports various content formats and automatically optimizes delivery based on user device capabilities, network conditions, and learning preferences.
+- Digital certificates and credentials are delivered instantly through blockchain-verified systems, secure credential wallets, or direct platform integration.
+- The platform supports data export in multiple formats and provides APIs for integration with external learning management systems and enterprise software.
+- Analytics data is updated in real-time and includes advanced visualization tools, customizable reporting dashboards, and automated alert systems for significant metric changes.
+- Nexus offers extensive API access for developers and institutions to integrate platform functionality into their own systems and create custom applications.
+- The platform maintains a curated marketplace for third-party extensions and integrations, fostering a rich ecosystem of complementary educational tools and services that extend Nexus’s capabilities.
+- Users have granular control over their data privacy settings, with Atlas providing transparent data usage reporting and easy data portability options that comply with global privacy regulations.
+- The platform implements robust security measures including end-to-end encryption for sensitive communications, regular third-party security audits, proactive threat detection systems, and multi-factor authentication options for all user accounts.
+- Atlas moderates content and interactions using advanced AI systems to maintain platform safety and quality standards while preserving authentic professional expression.
+
 | Requirement                                                      | Type | Comments                         |
 | :--------------------------------------------------------------- | :--- | -------------------------------- |
-| Support multiple users                                           | F    |                                  |
-| User roles with permissions                                      | F    |                                  |
+| Support multiple users                                           | NF   |                                  |
+| User roles with permissions                                      | NF   |                                  |
 | Checking existing users                                          | NF   |                                  |
 | Allow earning Nexus points throw ways                            | F    |                                  |
 | Ability of redeeming points for platform credits.                | F    |                                  |
-| Supports complex content categorization                          | F    |                                  |
+| Supports complex content categorization                          | NF   |                                  |
 | Ability for Instructors to create learning pathways              | F    |                                  |
 | Learner Performance tracker, and Instructors analytics           | F    |                                  |
 | Secure payments processing                                       | NF   | through atlas + multiple payment |
@@ -18,7 +41,7 @@
 | data export in multiple formats                                  | F    |                                  |
 | Instant digital certificates and credentials delivery            | NF   |                                  |
 | Real-time analytics and alerts                                   | F    |                                  |
-| Extensive API access for developers                              | NF   |                                  |
+| Extensive API access for developers                              | F    |                                  |
 | curated marketplace for third-party extensions and integrations  | NF   |                                  |
 | Robust security and encryption for communications                | F    |                                  |
 | AI moderation for providing safety and quality                   | NF   |                                  |
