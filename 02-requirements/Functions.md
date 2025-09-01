@@ -11,3 +11,4 @@
 | Redeem points         |             | points can be redeemed for platform credits, etc...       |
 | moderate content      | External AI |                                                           |
 | Calculate Taxes       | User        | user might calculate the taxes, instead of auto calculate |
+| Build networks        | Users       |                                                           |

@@ -21,6 +21,7 @@
 - Users have granular control over their data privacy settings, with Atlas providing transparent data usage reporting and easy data portability options that comply with global privacy regulations.
 - The platform implements robust security measures including end-to-end encryption for sensitive communications, regular third-party security audits, proactive threat detection systems, and multi-factor authentication options for all user accounts.
 - Atlas moderates content and interactions using advanced AI systems to maintain platform safety and quality standards while preserving authentic professional expression.
+- Connect enables users to build vibrant professional networks
 
 | Requirement                                                      | Type | Comments                         |
 | :--------------------------------------------------------------- | :--- | -------------------------------- |
@@ -45,3 +46,4 @@
 | curated marketplace for third-party extensions and integrations  | NF   |                                  |
 | Robust security and encryption for communications                | F    |                                  |
 | AI moderation for providing safety and quality                   | NF   |                                  |
+| build vibrant professional networks                              | F    | with Connect                     |
