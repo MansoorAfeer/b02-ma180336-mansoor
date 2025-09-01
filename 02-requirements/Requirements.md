@@ -13,4 +13,12 @@
 | Automatic tax calculations                                       | NF   |                                  |
 | supporting millions of concurrent learners across global markets | NF   |                                  |
 | multi-factor authentication options                              | F    |                                  |
-|                                                                  |      |                                  |
+| Managing complex content licensing                               | NF   | by Atlas                         |
+| Optimize content delivery                                        | NF   |                                  |
+| data export in multiple formats                                  | F    |                                  |
+| Instant digital certificates and credentials delivery            | NF   |                                  |
+| Real-time analytics and alerts                                   | F    |                                  |
+| Extensive API access for developers                              | NF   |                                  |
+| curated marketplace for third-party extensions and integrations  | NF   |                                  |
+| Robust security and encryption for communications                | F    |                                  |
+| AI moderation for providing safety and quality                   | NF   |                                  |
